@@ -47,8 +47,7 @@ The Parking Allocation System is a web-based application designed to manage and 
 4. **Run the Application:**
    - Open your web browser.
    - Navigate to `http://localhost/Parking-Allocation`.
-## Images
-![image](https://github.com/PratikKapadi/Parking-Allocation/assets/128824604/3e3e3659-4eca-457b-9958-bd983dc3f28c)
+
 
 
 
