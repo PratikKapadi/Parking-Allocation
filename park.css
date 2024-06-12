@@ -1,0 +1,217 @@
+
+* {
+
+    margin: 0px;
+  
+    padding: 0px;
+  
+    box-sizing: border-box;
+  
+  }
+
+  nav {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 8vh;
+  
+    background-color: teal;
+  
+    font-family: "Montserrat", sans-serif;
+  
+  }
+  .header{
+    /* width: 70%; */
+    text-align: center;
+  }
+  .text1{
+    text-decoration: none;
+    color: #000000;
+  }
+  .heading {
+  
+    color: white;
+  
+    text-transform: uppercase;
+  
+    letter-spacing: 5px;
+  
+    font-size: 20px;
+  
+  }
+  .nav-links {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    width: 30%;
+  
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 14px 16px;
+  
+  }
+  
+  .nav-links a:hover:not(.active) {
+  
+    background-color: lightseagreen;
+  
+  }
+  
+  .nav-links li a.active {
+  
+    background-color: #4caf50;
+  
+  }
+  /* style the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* style the form labels */
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* style the form input fields */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-transform: uppercase;
+}
+
+/* style the form submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+a{
+  text-decoration: none;
+color: #fff2f2;
+}
+button{
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* style error messages */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.footer_link li a.active{
+    color: #f4efef;
+  }
+  
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1919;
+  align-items: center;
+  justify-content: space-between;
+  color: #f4efef;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #181818;
+  margin-top: 15px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+.connect{
+  color: #fff;
+}
+.social-icons a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #490c3a;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #02ddff;
+}
+
+.footer2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  color: #f4efef;
+}
+.footer2 .heading {
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.footer2 .heading:hover {
+  color: #02ddff;
+}
+.footer2 .div:hover {
+  transform: scale(1.05);
+}
+
+.footer2 div {
+  margin: 10px;
+}
